@@ -1,6 +1,10 @@
 from MyUser import User
 name = input("Введите имя пользователя чата: ")
-user = User(name, "http://127.0.0.1:50550/")
+#user = User(name, "http://127.0.0.1:50550/")
+user = User(name, "http://johnray.pythonanywhere.com/")
+
+#"http://127.0.0.1:50550/"
+#"http://johnray.pythonanywhere.com/"
 
 while True:
     print("Программа чат! Выберите действие, которое хотите выполнить: ")
